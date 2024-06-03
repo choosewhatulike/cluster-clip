@@ -16,6 +16,16 @@ The following steps are required to use ClusterClip:
 3. Run the K-means to cluster your data.
 4. Group your data into clusters for training.
 
+#### Requirements
+```
+langid==1.1.6
+numpy==1.24.3
+scipy==1.13.1
+torch==2.0.1
+tqdm==4.66.1
+transformers==4.39.3
+```
+
 ## 1. Data Preparation
 Prepare your data in a jsonl format. Each line should be a json object with a "content" field. For example:
 ```json
